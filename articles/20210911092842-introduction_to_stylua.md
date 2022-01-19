@@ -72,10 +72,10 @@ print(123)                -- comment<
 config fileがない場合、defaultの設定を使用します。
 
 defaultでは、`stylua.toml` と `.stylua.toml` を検索する際、 StyLua CLIを実行したcurrent directoryしか検索しません。
-[README](https://github.com/JohnnyMorganz/StyLua#finding-the-configuration)では、特になにもなければ、project rootにconfig fileを配置するのを推奨していません。
+[特になにもなければ、project rootにconfig fileを配置するのを推奨しています。](https://github.com/JohnnyMorganz/StyLua#finding-the-configuration)
 
 :::message
-READMEで使用するのを勧めていませんが、StyLua CLIに `--search-parent-directories` を追加すれば、root pathまで検索できます。
+READMEで使用するのを勧めていませんが、StyLua CLIに `--search-parent-directories` を追加すれば、root pathまでconfig fileを検索できます。
 :::
 
 ### 設定値
