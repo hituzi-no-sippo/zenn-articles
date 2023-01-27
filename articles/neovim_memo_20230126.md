@@ -612,8 +612,8 @@ $ nvim --headless -u NONE -c "write sub/apple/banana.txt" -c "quit"
 Error detected while processing command line:
 E212: Can't open file for writing: no such file or directory
 $ file sub/apple/banana.txt
-# ファイルは作成されていない
 sub/apple/banana.txt: cannot open `sub/apple/banana.txt' (No such file or directory)
+# ファイルは作成されていない
 
 # `++p` フラグがあるため、 `sub/apple` ディレクトリを作成してくれる
 $ nvim --headless -u NONE -c "write ++p sub/apple/banana.txt" -c "quit"
