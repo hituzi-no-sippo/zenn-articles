@@ -591,6 +591,37 @@ key-name = kebab
 `val` は文字列になるので、プロパティの値が `false` の場合、`if val then some() end` の `some()` は実行されます
 ```
 
+### ディレクトリを作成する write の `++p` フラグ
+
+`:write ++p sub/apple/banana.txt` コマンドを実行した際、 `sub/apple` ディレクトリがなくても、ファイルは作成されます。
+`++p` フラグのおかげで、 `sub/apple` ディレクトリを作成してくれるからです。
+
+- [実装されたPR](https://github.com/neovim/neovim/issues/19884)
+- [`:help ++p`](https://neovim.io/doc/user/editing.html#++p)
+
+2023年1月27日現在、 nightlyにしかない機能です。
+
+```shell
+$ ls sub sub/apple  # ディレクトリがないことを確認する
+ls: cannot access 'sub': No such file or directory
+ls: cannot access 'sub/apple': No such file or directory
+
+# `sub/apple` ディレクトリがないためエラーになる
+$ nvim --headless -u NONE -c "write sub/apple/banana.txt" -c "quit"
+"sub/apple/banana.txt"
+Error detected while processing command line:
+E212: Can't open file for writing: no such file or directory
+$ file sub/apple/banana.txt
+# ファイルは作成されていない
+sub/apple/banana.txt: cannot open `sub/apple/banana.txt' (No such file or directory)
+
+# `++p` フラグがあるため、 `sub/apple` ディレクトリを作成してくれる
+$ nvim --headless -u NONE -c "write ++p sub/apple/banana.txt" -c "quit"
+"sub/apple/banana.txt" "sub/apple/banana.txt" [New] 0L, 0B written
+$ file sub/apple/banana.txt
+sub/apple/banana.txt: empty # ファイルは作成されている
+```
+
 ## 設定
 
 ### TJとThePrimeagenのNeovim設定構築動画
