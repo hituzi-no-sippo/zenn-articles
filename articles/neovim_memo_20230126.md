@@ -597,7 +597,7 @@ key-name = kebab
 `++p` フラグのおかげで、 `sub/apple` ディレクトリを作成してくれるからです。
 
 - [実装されたPR](https://github.com/neovim/neovim/issues/19884)
-- [`:help ++p`](https://neovim.io/doc/user/editing.html#++p)
+- [`:help ++p`](https://neovim.io/doc/user/editing.html#%2B%2Bp)
 
 2023年1月27日現在、 nightlyにしかない機能です。
 
