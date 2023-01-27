@@ -66,37 +66,30 @@ published: true
 - 新規プラグイン
 - 既存プラグインのアップデート内容
 
-などを日本時間だど毎週月曜日の夕方あたりに投稿しています。
+などを日本時間だと毎週月曜日の夕方あたりに投稿しています。
 
 TWiNを立ち上げたphaazon(Dimitri Sabadie)は
 
-- [TWiNを維持することに大変疲れている](https://phaazon.net/blog/editors-in-2022#:~:text=I%E2%80%99m%20really%20tired%20of%20maintaining%20TWiN.)、
+- [TWiNを維持することに大変疲れている](https://phaazon.net/blog/editors-in-2022#:~:text=I%E2%80%99m%20really%20tired%20of%20maintaining%20TWiN.)
 - [人々は読むだけで、TWiNに投稿して協力してくれないのにうんざりしている](https://phaazon.net/blog/editors-in-2022#:~:text=So%2C%20people%20started%20to%20mention%20that%20I%20should%20slow%20down%20or%20I%20will%20burn%20out.%20And%20I%E2%80%99m%20honestly%20pretty%20fed%20up%20with%20this%20read%2Donly%20relationship%3A%20people%20consume%20/%20read%3B%20they%20rarely%20contribute%2C%20even%20when%20they%20could%20contribute%20their%20own%20update%20for%20their%20own%20plugins!)
-- [TWiNの一部を投稿して、TWiN作成の協力をして欲しい](https://phaazon.net/blog/editors-in-2022#:~:text=What%20I%20need%20is%C2%A0contributions.)
+- [TWiNへ投稿して、TWiN作成の協力をして欲しい](https://phaazon.net/blog/editors-in-2022#:~:text=What%20I%20need%20is%C2%A0contributions.)
 
 と[ブログ記事](https://phaazon.net/blog/editors-in-2022)で書きました。
 
-[プラグイン作者がTWiNへ投稿して](https://phaazon.net/blog/editors-in-2022#:~:text=while%20what%20I%20thought%20would%20happen%20was%20that%20many%20plugin%20authors%20would%20contribute%20once%20every%20two%20months%20a%20very%20small%20text%20to%20explain%20their%20new%20plugins%20/%20change.)、
-その投稿を組み合わせてTWiNにする。
+[プラグイン作者がTWiNへ投稿して](https://phaazon.net/blog/editors-in-2022#:~:text=while%20what%20I%20thought%20would%20happen%20was%20that%20many%20plugin%20authors%20would%20contribute%20once%20every%20two%20months%20a%20very%20small%20text%20to%20explain%20their%20new%20plugins%20/%20change.)、その投稿を組み合わせてTWiNにする。
 これがphaazonの理想のように私は印象を持ちました。
 
-コミュニティが協力して、TWiNを作成し、
-TWiNをコミュニティのものにしたいんだと感じました。
-TWiNをコミュニティのものにして、コミュニティ主導で管理して、
-phaazonがいなくてもTWiNを運用するのが目標なんだと思います。
-phaazonの個人ブログではなく、
-Zennのように複数の人が投稿するものにTWiNをしたかったんだと思います。
+コミュニティが協力して、TWiNを作成し、TWiNをコミュニティのものにしたいんだと感じました。
+TWiNをコミュニティのものにして、コミュニティ主導で管理して、phaazonがいなくてもTWiNを運用するのが目標なんだと思います。
+phaazonの個人ブログではなく、Zennのように複数の人が投稿するものにTWiNをしたかったんだと思います。
 
 現状のphaazon一人が頑張って殆ど作成するのは、phaazonの理想とはかけ離れています。
 TWiNを公開し、続けていけば、読んだ人が投稿してくれると考えていたようです。
 しかし、投稿してくれる人は少なかったようです。
 
-投稿しやすいように大きなリファクタリングをして、Redditに投稿しても、
-[TWiNへの投稿は増えなかったようです。](https://phaazon.net/blog/editors-in-2022#:~:text=And%20even%20with%20the%20exposure%20of%20TWiN%2C%20people%20still%20do%20not%20contribute.%20Even%20after%20the%20big%20refactoring%20to%20ease%20contribution%20I%20announced%20on%20Reddit.)
-この[Redditの投稿](https://www.reddit.com/r/neovim/comments/yeo89j/twin_gets_a_new_collaboration_process_to_ease/)で、
-phaazonは
-"プラグイン作者がTWiNを考え、自分たちのニュースを自分たちで提供するようにしたかった"
-の様なことをコメントしています。
+投稿しやすいように大きなリファクタリングをして、Redditに投稿しても、[TWiNへの投稿は増えなかったようです。](https://phaazon.net/blog/editors-in-2022#:~:text=And%20even%20with%20the%20exposure%20of%20TWiN%2C%20people%20still%20do%20not%20contribute.%20Even%20after%20the%20big%20refactoring%20to%20ease%20contribution%20I%20announced%20on%20Reddit.)
+この[Redditの投稿](https://www.reddit.com/r/neovim/comments/yeo89j/twin_gets_a_new_collaboration_process_to_ease/)でphaazonは
+"プラグイン作者がTWiNを考え、自分たちのニュースを自分たちで提供するようにしたかった" の様なことをコメントしています。
 
 [TWiNへの投稿方法はREADMEに記載しています。](https://github.com/phaazon/this-week-in-neovim-contents#how-to-contribute)
 
@@ -113,17 +106,13 @@ Redditのスレッド
 - [Neovim](https://www.reddit.com/r/neovim/comments/1007z1z/my_thoughts_about_editors_in_2022/)
 - [Programming](https://www.reddit.com/r/programming/comments/1007yq5/my_thoughts_about_editors_in_2022/)
 
-この記事への反応の効果で、
-[行き詰まっていた、NeovimのコアチームとのTWiNプロジェクトの話し合い](https://phaazon.net/blog/editors-in-2022#:~:text=I%20discussed%20the%20project%20with%20some%20people%20from%20the%20Neovim%20core%20team%2C%20and%20I%E2%80%99m%20a%20bit%20stuck.)が、
-良い方向へ進めばいいと願っています。
+この記事への反応の効果で、[行き詰まっていた、NeovimのコアチームとのTWiNプロジェクトの話し合い](https://phaazon.net/blog/editors-in-2022#:~:text=I%20discussed%20the%20project%20with%20some%20people%20from%20the%20Neovim%20core%20team%2C%20and%20I%E2%80%99m%20a%20bit%20stuck.)が、 良い方向へ進めばいいと願っています。
 
-私も[ブログ記事](https://phaazon.net/blog/editors-in-2022)を読みましたが、
-多分1番多くのNeovimプラグインを見てきた人が考えているNeovimのプラグインの問題点は面白く、考えさせられました。
+私も[ブログ記事](https://phaazon.net/blog/editors-in-2022)を読みましたが、多分1番多くのNeovimプラグインを見てきた人が考えているNeovimのプラグインの問題点は面白く、考えさせられました。
 
 #### mind.nvim と hop.nvim の今後について
 
-ブログ記事では、
-phaazonが開発している次の2つのプラグインの開発方針についても書いています。
+ブログ記事では、phaazonが開発している次の2つのプラグインの開発方針についても書いています。
 
 - [mind.nvim](https://github.com/phaazon/mind.nvim)
   メモやタスク、考えを整理しやすくするプラグイン
@@ -147,8 +136,7 @@ phaazonが開発している次の2つのプラグインの開発方針につい
 
 [Path to version 1.0 #20451](https://github.com/neovim/neovim/issues/20451)
 
-リンク先に書かれていますが、
-"Path to version 1.0" と "[Roadmap](https://neovim.io/roadmap/)" は違います。
+リンク先に書かれていますが、"Path to version 1.0" と "[Roadmap](https://neovim.io/roadmap/)" は違います。
 
 ["justinmk" がRedditで投稿したコメントを読み](https://www.reddit.com/r/neovim/comments/zm24r1/comment/j08wd7g)、
 自分なりに日本語に解釈したところ、次の通りになりました。
@@ -208,9 +196,9 @@ https://www.reddit.com/r/neovim/comments/109xyf3/comment/j41chcr)
 #### Neovimコアに追加しないプラグイン機能と理由
 
 - インデントの表示を変更する
-  見た目は変わるが便利ではなく、表示速度が遅くなるため
+  見た目は変わるが役にたつものではなく、表示速度が遅くなるため
   類似するプラグイン: [indent-blankline.nvim](https://github.com/lukas-reineke/indent-blankline.nvim)
-- `[` を入力したら `]` が自動で挿入されるオートペア
+- オートペア (`[` を入力したら `]` が自動で挿入される)
   オートペアのプラグインがあっても、実際の仕事が減るのを見たことない
   類似するプラグイン: [auto-pairs](https://github.com/jiangmiao/auto-pairs)
 
@@ -237,7 +225,7 @@ https://www.reddit.com/r/neovim/comments/109xyf3/comment/j41chcr)
 - number: true
   - [単なる人の好み](https://github.com/neovim/neovim/issues/21342#issuecomment-1343240405)
   - [ヘルプドキュメントの改善が必要な目じるし。
-     `number` のヘルプの先頭に、行番号を表示する `ruler` オプションと `g ctrl-g` の説明を追加する](https://github.com/neovim/neovim/issues/21342#issuecomment-1343296366)
+     `number` のヘルプの先頭に、行番号を表示する `ruler` オプションと `g ctrl-g` の説明を追加する。デフォルト値の変更は必要ない。](https://github.com/neovim/neovim/issues/21342#issuecomment-1343296366)
 - ignorecase & smartcase: true
   - [大・小文字を無視するのはユーザが最も自然に思えない、驚き最小の原則に反するため反対です。
      検索を行うgrepやlessなどの検索を行うツールも、デフォルトで大文字小文字を無視するわけではありません。](https://github.com/neovim/neovim/issues/21342#issuecomment-1343240405)
@@ -245,9 +233,7 @@ https://www.reddit.com/r/neovim/comments/109xyf3/comment/j41chcr)
 - expandtab: true
   [filetypeプラグインで設定されるから、変更する意味が殆どありません](https://github.com/neovim/neovim/issues/21342#issuecomment-1343240405)
 
-テストやドキュメント生成、
-テキストの整列などの沢山の便利ツールが入っている[mini.nvim](https://github.com/echasnovski/mini.nvim)
-の開発者が、アンケートの作成者です。
+テストやドキュメント生成、テキストの整列などの沢山の便利ツールが入っている[mini.nvim](https://github.com/echasnovski/mini.nvim)の開発者が、アンケートの作成者です。
 
 - [アンケート結果に対するRedditのスレッド](https://www.reddit.com/r/neovim/comments/zg44mm/results_of_neovim_builtin_options_survey_more_in/)
 
@@ -262,12 +248,14 @@ https://www.reddit.com/r/neovim/comments/109xyf3/comment/j41chcr)
 
 これにより、ステータスラインの様に行番号部分を自分好みに変更できます。
 
-オプション `statuscolumn` のPRを作成した人が開発者の
 `statuscolumn` 用の[プラグイン](https://github.com/luukvbaal/statuscol.nvim)もあります。
+プラグインの開発者は `statuscolumn` のPRを作成した人です。
 
 ### EditorConfigの対応が追加された
 
 [editorconfig.nvim](https://github.com/gpanders/editorconfig.nvim)のようなプラグインがなくても、[標準でEditorConfigが適応されるようになりました。](https://github.com/neovim/neovim/pull/21633)
+
+2023年1月26日現在、 nightlyにしかない機能です。
 
 editorconfig.nvimの開発者が、PRの作成者です。
 
@@ -278,18 +266,20 @@ editorconfig.nvimの開発者が、PRの作成者です。
 
 次のようになります。
 
-```console
+```shell
 # 行末までの空白を削除する機能を有効にします
 $ echo -e "[*.txt]\ntrim_trailing_whitespace = true" > .editorconfig
 # 行末までの空白があるファイルを作成します
 $ echo "trim_trailing_whitespace   " > test.txt
 $ cat --show-ends test.txt  # 行末が `$` で表示されます
 trim_trailing_whitespace   $
-# 書き込みをして、editorconfigを動かし、行末空白を削除します。
+
+# 書き込みをして、editorconfigを動かし、行末の空白を削除します。
 $ nvim --headless --clean -c "wq" test.txt
 "test.txt" "test.txt" 1L, 25B written
+
 $ cat --show-ends test.txt  # 行末が `$` で表示されます
-trim_trailing_whitespace$
+trim_trailing_whitespace$   # 行末の空白が削除されている
 ```
 
 見やすくするため、一部出力変更しています。
@@ -297,7 +287,7 @@ trim_trailing_whitespace$
 `$ nvim --headless --clean -c "wq" test.txt` ですが、
 最後に改行がないので、
 
-```console
+```shell
 $ nvim --headless --clean -c "wq" test.txt
 "test.txt" "test.txt" 1L, 28B written$ cat --show-ends test.txt
 ```
@@ -308,46 +298,50 @@ $ nvim --headless --clean -c "wq" test.txt
 
 **`nvim --clean` について**
 
-`--clean` で、設定やプラグインは読みこまず、
-新規インストール時のNeovimと極力同じ環境にします。
+`--clean` で、設定やプラグインは読みこまず、新規インストール時のNeovimと極力同じ環境にします。
 editorconfigはビルドインプラグインなので、 `-u NONE` にはしません。
 `-u NONE` にすると、editorconfigが動きません。
 
-[`:Man` コマンドもビルドインプラグイン](https://github.com/neovim/neovim/blob/master/runtime/lua/man.lua)なので、
-`-u NONE` にするとできません。
+[`:Man` コマンドもビルドインプラグイン](https://github.com/neovim/neovim/blob/master/runtime/lua/man.lua)なので、 `-u NONE` にするとできません。
 ヘルプファイル時に目次を表示する、 `gO` も動きません。
 
 #### `.editorconfig` とカレントディレクトリ
 
 `.editorconfig` は、カレントディレクトリになくても適用されます。
 
-```console
+```shell
 $ echo -e "[*.txt]\ntrim_trailing_whitespace = true" > .editorconfig
 $ mkdir sub
 $ cd sub # ディレクトリを移動する
+
 $ echo "trim_trailing_whitespace   " > test.txt
 $ cat --show-ends test.txt  # 行末が `$` で表示されます
 trim_trailing_whitespace   $
+
 $ nvim --headless --clean -c "wq" test.txt
 "test.txt" "test.txt" 1L, 25B written
+
 $ cat --show-ends test.txt  # 行末が `$` で表示されます
-trim_trailing_whitespace$
+trim_trailing_whitespace$   # 行末の空白が削除されている
 ```
 
 `.editorconfig` がカレントディレクトリにあっても、 `.editorconfig` があるディレクトリ配下にないファイルには適応されません。
 
-```console
+```shell
 $ mkdir sub
 # サブディレクトリに `.editorconfig` を作成する
 $ echo -e "[*.txt]\ntrim_trailing_whitespace = true" > sub/.editorconfig
+
 $ echo "trim_trailing_whitespace   " > test.txt
 $ cat --show-ends test.txt  # 行末が `$` で表示されます
 trim_trailing_whitespace   $
+
 $ nvim --headless --clean -c "wq" test.txt
 "test.txt" "test.txt" 1L, 25B written
+
 # `.editorconfig` が適用されていないので、行末までの空白は削除されない
-$ cat --show-ends test.txt  # 行末が `$` で表示されます
-trim_trailing_whitespace   $
+$ cat --show-ends test.txt   # 行末が `$` で表示されます
+trim_trailing_whitespace   $ # 行末の空白が削除されています
 ```
 
 #### `.editorconfig` の内容を変更したら
@@ -359,35 +353,32 @@ Neovim内で `.editorconfig` の内容を変更しても、すでに開いてい
 
 [変更される可能性があります。](https://github.com/neovim/neovim/issues/21648)
 
-2023年1月26日現在、nightlyでは、 `insert_final_newline = false` で最後に改行がある場合、
-改行を削除します。
+2023年1月26日現在、nightlyでは、 `insert_final_newline = false` で最後に改行がある場合、改行を削除します。
 
 なので、次のようになります。
 
-```console
+```shell
 $ echo -e "[*.txt]\ninsert_final_newline = false" > .editorconfig
 $ echo "insert_final_newline = false" > insert.txt  # 改行あり
 $ echo -n "insert_final_newline = false" > no.txt   # 改行なし
+
 $ nvim --headless --clean -c "wq" insert.txt
 "insert.txt" "insert.txt" [noeol] 1L, 28B written
 $ nvim --headless --clean -c "wq" no.txt
 "no.txt" "no.txt" [noeol] 1L, 28B written
+
 $ diff insert.txt no.txt  # 差分はなし
 ```
 
 これは[editorconfig-vim](https://github.com/editorconfig/editorconfig-vim)と動作が違います。
-editorconfig-vimの場合、`insert_final_newline = false` で最後に改行がある場合、
-何もしません。改行を削除しません。
+editorconfig-vimの場合、`insert_final_newline = false` で最後に改行がある場合、何もしません。改行を削除しません。
 
-[仕様](https://editorconfig-specification.readthedocs.io/#supported-pairs)の書き方が悪く、
-[改行を削除するのが正しいのか、改行をそのままにするのが正しいのか、
-editorconfig公式でも決まっていません。](https://github.com/editorconfig/editorconfig/issues/475)
+[仕様](https://editorconfig-specification.readthedocs.io/#supported-pairs)の書き方が悪く、[改行を削除するのが正しいのか、改行をそのままにするのが正しいのか、editorconfig公式でも決まっていません。](https://github.com/editorconfig/editorconfig/issues/475)
 改行をそのままにするのが正しいなら、Neovimの標準のeditorconfigの動作も変更になります。
 
 #### `editorconfig` の値を取得する
 
-[editorconfigの "properties" テーブルにコールバック関数を追加すれば](https://neovim.io/doc/user/editorconfig.html#editorconfig-custom-properties)、
-編集しているファイルに対する `editorconfig` の値を取得できます。
+[editorconfigの "properties" テーブルにコールバック関数を追加すれば](https://neovim.io/doc/user/editorconfig.html#editorconfig-custom-properties)、編集しているファイルに対する `editorconfig` の値を取得できます。
 
 **editorconfig.lua**
 
@@ -421,8 +412,7 @@ trim_trailing_whitespace = true
 ```
 
 プロパティの値がないとコールバック関数は実行されません。
-そのため、 次のように編集しているファイルに対して、
-`trim_trailing_whitespace` が設定されていないとコールバック関数は実行されません。
+そのため、 次のように編集しているファイルに対して、`trim_trailing_whitespace` が設定されていないとコールバック関数は実行されません。
 
 **上で設定したコールバック関数が実行されない `.editorconfig` の例**
 
@@ -440,6 +430,8 @@ trim_trailing_whitespace = true
 ```
 
 ##### editorconfigにはないプロパティも設定できます
+
+**editorconfig.lua**
 
 ```lua
 require('editorconfig').properties.apple = function(bufnr, val, opts)
@@ -472,6 +464,8 @@ apple = banana
 
 ##### optsには編集中のファイルのみに適用されている値が入ります
 
+**editorconfig.lua**
+
 ```lua
 require('editorconfig').properties.format = function(bufnr, val, opts)
   print("バッファ番号: " .. bufnr)
@@ -500,7 +494,7 @@ insert_final_newline = true
 indent_style = tab
 max_line_length = 80
 
-[*.norg]
+[*.dj]
 trim_trailing_whitespace = true
 insert_final_newline = true
 indent_style = space
@@ -525,6 +519,8 @@ max_line_length = 80
 
 ##### プロパティが格納されている引数の値は文字列です
 
+**editorconfig.lua**
+
 ```lua
 require('editorconfig').properties.boolean = function(bufnr, val, opts)
   print("バッファ番号: " .. bufnr)
@@ -538,7 +534,7 @@ require('editorconfig').properties.boolean = function(bufnr, val, opts)
   print("引数のopts.booleanの型は" .. type(opts.boolean))
 
   if val then
-    print("`val` は文字列になるので、プロパティの値が `false` の場合、" ..
+    print("`val` は文字列になるので、プロパティの値が `false` の場合でも、" ..
           "`if val then some() end` の `some()` は実行されます")
   end
 end
@@ -671,7 +667,7 @@ LazyVimも含め、次のような設定済みのNeovim設定の名称が分か�
 1. ターミナルモードで ` cake`を入力する
    `apple banana donut cake|`
 
-term-edit.nvimを使うと、次のようになります。
+term-edit.nvimを使うと、次のように変更されます。
 
 1. ターミナルモードで `donut` の後にカーソルを移動する
    `apple banana donut|`
@@ -698,8 +694,7 @@ Neovimに標準搭載されるかもしれないです。
 
 ### Neovim内でv0.8からv0.9の変更点を見る
 
-[`:help news`](https://neovim.io/doc/user/news.html)をやると、
-v0.8かv0.9までの変更点が見れます。
+[`:help news`](https://neovim.io/doc/user/news.html)をやると、v0.8かv0.9までの変更点が見れます。
 破壊的変更や新機能で章が分かれてて、見やすいです
 
 nightlyでしかできません。 `v0.8.2` ではできませんでした。
