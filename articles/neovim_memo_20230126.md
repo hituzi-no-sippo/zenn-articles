@@ -33,22 +33,31 @@ published: true
 
 #### プレゼン
 
-- [State of Neovim](https://youtu.be/IFACLbpqRB4) - [justinmk(Justin M. Keyesk)](https://github.com/justinmk)
-  Neovimの現状を話しています
-  2014年、初期からのメンテナーの方が発表者です。
-  今のNeovimの開発のリーダーという印象を私は持っています。
-- [Writing Plugins - It's Never Been Easier](https://youtu.be/PdaObkGazoU) - [Dr. David A. Kunz](https://github.com/David-Kunz)
-  Luaを使ったNeovimのプラグイン書き方を教えてくれます。
-  発表者さんはNeovimの新機能やプラグインの紹介動画を投稿しています。
-  Redditで、紹介動画のスレッドが上がっているのをよく見ます。
-- [Mapping your way to productivity](https://youtu.be/XyCRvk-VcXU) - [Ben Frain](https://benfrain.com/)
-  生産性を高めるマッピングについて話しています。
-  [使用しているスライド](https://nv2022.benfrain.com/)
-- [vmux: neovim as term multiplexer](https://youtu.be/CxYBBnYsY0Y) - [yazgoo](https://github.com/yazgoo/)
-  vim/neovimを端末のマルチプレクサにする[vmux](https://github.com/yazgoo/vmux)の紹介をしています。
-- [Why I Use Neovim From Within VS Code](https://youtu.be/7ff3GAwSPWg) - [Joe Previte](https://joeprevite.com)
-  発表者がVS Code内からNeovimを使用する理由を説明しています。
-  [使用しているスライド](https://neovim-within-vscode.vercel.app)
+- Neovimコア
+  - [State of Neovim](https://youtu.be/IFACLbpqRB4) - [justinmk(Justin M. Keyesk)](https://github.com/justinmk)
+    Neovimの現状を話しています。
+    2014年、初期からのメンテナーの方が発表者です。
+    今のNeovimの開発のリーダーという印象を私は持っています。
+
+- プラグイン
+  - [vmux: neovim as term multiplexer](https://youtu.be/CxYBBnYsY0Y) - [yazgoo](https://github.com/yazgoo/)
+    vim/neovimを端末のマルチプレクサにする[vmux](https://github.com/yazgoo/vmux)の紹介をしています。
+
+- プラグイン開発
+  - [Writing Plugins - It's Never Been Easier](https://youtu.be/PdaObkGazoU) - [Dr. David A. Kunz](https://github.com/David-Kunz)
+    Luaを使ったNeovimのプラグイン書き方を教えてくれます。
+    発表者はNeovimの新機能やプラグインの紹介動画を投稿しています。
+    Redditで、紹介動画のスレッドが上がっているのをよく見ます。
+
+- キーマップ
+  - [Mapping your way to productivity](https://youtu.be/XyCRvk-VcXU) - [Ben Frain](https://benfrain.com/)
+    生産性を高めるマッピングについて話しています。
+    [使用しているスライド](https://nv2022.benfrain.com/)
+
+- 他のテキストエディタ
+  - [Why I Use Neovim From Within VS Code](https://youtu.be/7ff3GAwSPWg) - [Joe Previte](https://joeprevite.com)
+    発表者がVS Code内からNeovimを使用する理由を説明しています。
+    [使用しているスライド](https://neovim-within-vscode.vercel.app)
 
 発表者のプロフィールは
 [Neovim Confの公式サイト](https://www.neovimconf.live)を参考してください。
