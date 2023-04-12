@@ -46,6 +46,8 @@ published: true
 
 #### プレゼン
 
+[プレゼンのプレイリスト](https://youtube.com/playlist?list=PLcTu2VkAIIWzH2-dUu1oxucXenDzzcn_q)
+
 - Neovimコア
   - [State of Neovim](https://youtu.be/IFACLbpqRB4) - [justinmk(Justin M. Keyesk)](https://github.com/justinmk)
     Neovimの現状を話しています。
