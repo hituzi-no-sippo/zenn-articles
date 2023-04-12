@@ -20,6 +20,19 @@ published: true
 
 ### Neovim Conf 2022のアーカイブ
 
+#### Neovim Conf開催したときの開発環境
+
+- Neovim Confの開催日時
+  2022年12月9日と10日
+- 最新リリース
+  [v0.8.1 (2022年11月14日リリース)](https://github.com/neovim/neovim/releases/tag/v0.8.1)です。
+  [Neovim v0.8.2(2022年12月30日リリース)](https://github.com/neovim/neovim/releases/tag/v0.8.2)
+  の少し前の状態です。
+- [lazy.nvim](https://github.com/folke/lazy.nvim)
+  人気なプラグインマネージャーのlazy.nvimがまだ広まっていなかった印象があります。
+  Neovim Conf後の[2022年12月20日のRedditの投稿](https://www.reddit.com/r/neovim/comments/zqk5ds/lazynvim_a_new_plugin_manager_for_neovim/)で広まった印象があります。
+  [issueを古い順](https://github.com/folke/lazy.nvim/issues?q=is%3Aissue+sort%3Acreated-asc+)にすると、1番古いのは12月22日です。
+
 #### 全体
 
 - Day1
