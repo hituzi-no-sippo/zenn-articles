@@ -53,16 +53,38 @@ published: true
     Neovimの現状を話しています。
     2014年、初期からのメンテナーの方が発表者です。
     今のNeovimの開発のリーダーという印象を私は持っています。
+  - [Neovim internals - past and future](https://youtu.be/z-k9Chwt0Co) - [bfredl](https://github.com/bfredl)
+    Neovim内部の過去と未来を話しています。
+    発表者はNeovimのコアチームの一員です。Neovimプロジェクトでフルタイムで働いています。
 
 - プラグイン
+  - [Neovim ecosystem state for plugin developers](https://youtu.be/RXks5OJ7cBc) - [Anton Kastritskiy](https://github.com/antonk52)
+    プラグイン開発者のためのNeovimのエコシステムの状態を話しています。今とエコシステムは違います。
+    これに対するRedditのスレッドで、発表者がコメント返信しています。
+    - [Neovim ecosystem state for plugin developers](https://www.reddit.com/r/neovim/comments/11mqhm8/neovim_ecosystem_state_for_plugin_developers/)
+  - [Language Tailored Plugins: An Experience Like No Other](https://youtu.be/dLwvmLQsxrw) - [Chris Kipp](https://www.chris-kipp.io)
+    特定の言語に特化したプラグインの紹介をしています。
+    発表者もScala用のプラグイン[nvim-metals](https://github.com/scalameta/nvim-metals)を開発しています。
+  - [Building a webassembly runtime for Neovim plugins](https://youtu.be/I5jAjytDeIc) - [Gustavo Sampaio](https://gsampaio.dev)
+    Neovimとwebassemblyについて話しています。
   - [vmux: neovim as term multiplexer](https://youtu.be/CxYBBnYsY0Y) - [yazgoo](https://github.com/yazgoo/)
     vim/neovimを端末のマルチプレクサにする[vmux](https://github.com/yazgoo/vmux)の紹介をしています。
+  - [Regexplainer](https://youtu.be/5kf2LXCqcFI) - [Benny Powers](https://bennypowers.dev)
+    カーソル上の正規表現の説明を表示する
+    [nvim-regexplainer](https://github.com/bennypowers/nvim-regexplainer)
+    を作成した理由と経緯を話しています。
 
 - プラグイン開発
   - [Writing Plugins - It's Never Been Easier](https://youtu.be/PdaObkGazoU) - [Dr. David A. Kunz](https://github.com/David-Kunz)
     Luaを使ったNeovimのプラグイン書き方を教えてくれます。
     発表者はNeovimの新機能やプラグインの紹介動画を投稿しています。
     Redditで、紹介動画のスレッドが上がっているのをよく見ます。
+  - [Lua, a Primer](https://youtu.be/gjIl5Sfh2QQ) - [John McBride](https://johncodes.com)
+    Luaに関する次の説明をしています。
+    - Luaを使い始める方法
+    - Luaを使用してのNeovimの設定方法
+    - Luaで利用できる強力なAPIやインターフェース
+      プラグインやシンプルなスクリプトを作成するに便利です。
 
 - キーマップ
   - [Mapping your way to productivity](https://youtu.be/XyCRvk-VcXU) - [Ben Frain](https://benfrain.com/)
@@ -73,6 +95,29 @@ published: true
   - [Why I Use Neovim From Within VS Code](https://youtu.be/7ff3GAwSPWg) - [Joe Previte](https://joeprevite.com)
     発表者がVS Code内からNeovimを使用する理由を説明しています。
     [使用しているスライド](https://neovim-within-vscode.vercel.app)
+  - [Helix: an editor hopping story](https://youtu.be/tGYvUXYN-c0) - [Maas Lalani](https://maaslalani.com)
+    Helixに乗り換えるまでの道のりを紹介し、Helixを試してみたい人のためにちょっとしたチュートリアルです。
+    開発者は、モダンなCLIアプリケーションを簡単に構築できるライブラリの[Charm](https://charm.sh)プロジェクトのメンバーです。
+    次のCLIアプリケーションを開発しています。
+    - [vhs](https://github.com/charmbracelet/vhs)
+      ファイルにコマンドの操作を書き、書いたコマンドの通りにターミナルを動かします。
+      操作時のターミナルの画面を録画します。GIFやMP4、WebMに対応しています。
+      CLIアプリケーションのデモの動画を作成するのに便利です。
+      ターミナル画面をテキストファイル(`txt`, `ascii`)に出力することもできるので、CLIのテストにも使えます。
+    - [Gum](https://github.com/charmbracelet/gum)
+      Go言語を書かず、BashだけでモダンなCLIを構築できます。
+    - [Slides](https://maaslalani.com/slides/)
+      ターミナルでスライド発表ができます。スライドを書く言語はMarkDownです。
+
+- その他
+  - [VIMKipedia: Or How I Built My Second Brain Using Vim](https://youtu.be/q80hXvorl0o) - [Theena Kumaragurunathan](https://theena.net)
+    Vimのプラグインを使用して、Zettelkastenを構築する方法を説明しています。
+    発表者は次の2つを使用しています。
+    - [Vim-wiki](https://vimwiki.github.io)
+    - [Vim-Zettel](https://github.com/michal-h21/vim-zettel)
+  - [Neovim Made Me Cry](https://youtu.be/ePDL332Y33M) - [Bashbunni](https://www.bashbunni.dev)
+    Neovim初心者が、Neovimを使い始めての感想を話しています。
+    プレゼン資料とかなく、トークのみだったので、内容が間違っている可能性あります。
 
 発表者のプロフィールは
 [Neovim Confの公式サイト](https://www.neovimconf.live)を参考してください。
