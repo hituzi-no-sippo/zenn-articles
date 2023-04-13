@@ -377,6 +377,7 @@ editorconfigはビルドインプラグインなので、 `-u NONE` にはしま
 #### `.editorconfig` とカレントディレクトリ
 
 `.editorconfig` は、カレントディレクトリになくても適用されます。
+親ディレクトリを調べて `.editorconfig` があったら、その設定を適用します。
 
 ```shell
 $ echo -e "[*.txt]\ntrim_trailing_whitespace = true" > .editorconfig
